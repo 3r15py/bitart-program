@@ -76,12 +76,21 @@ BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9
 
 The same deterministic program address is deployed on both clusters:
 
-- [Mainnet program](https://solscan.io/account/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9)
-- [Mainnet deployment transaction](https://solscan.io/tx/4XpYSgaKEk1wHryNtctGmPYvfw51DtzKon8qDcB4wbJ8kKNxXJJBbXuBPdzLXXxPCNa4ZW1h7gkajqsJknsiEita)
-- [Devnet program](https://solscan.io/account/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9?cluster=devnet)
+- [Mainnet program](https://explorer.solana.com/address/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9)
+- [Mainnet deployment transaction](https://explorer.solana.com/tx/4XpYSgaKEk1wHryNtctGmPYvfw51DtzKon8qDcB4wbJ8kKNxXJJBbXuBPdzLXXxPCNa4ZW1h7gkajqsJknsiEita)
+- [Devnet program](https://explorer.solana.com/address/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9?cluster=devnet)
 
 The mainnet program is upgradeable. Its upgrade authority should be protected
 as production infrastructure and never used by a browser client.
+
+## Example
+
+- [bitart logo](https://explorer.solana.com/tx/cDxbDZoogFNQnYpKRCetWJDkr7gcz9ei17TBY4Romu6ux2mciMtgGZ7ML1ovM3huLdNzrFBHgzEx9NhpBrytsyz)
+- [dogwifhat](https://explorer.solana.com/tx/3giSfKcxc7LQag7saPXHCy3fexp1jMiLi154jMLuS2s27SH8xTY4VvCArJXSXczByJWnNuavmAVuEcrbxrxkWX7c)
+- [apeonfone](https://explorer.solana.com/tx/3T1HoUn1o8UDgKrgeft3qtkDtFQp5NPSP15GRTiU5todCZTCnG2ZVSDCQJcwuVRXFxbZoeNFkgr5DFLiyeh3prVE)
+
+Open **Program Instruction Logs** on any example to see the 74×37 Unicode
+artwork rendered by the program.
 
 ## Repository layout
 
