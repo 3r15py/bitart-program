@@ -12,6 +12,9 @@ postcard = "BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9"
 [programs.devnet]
 postcard = "BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9"
 
+[programs.mainnet]
+postcard = "BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9"
+
 [provider]
 cluster = "localnet"
 wallet = '~\.config/solana/id.json'

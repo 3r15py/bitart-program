@@ -66,7 +66,7 @@ rendered artwork.
 Clients should request a compute limit of 1,000,000 CU for the combined
 decompression, transfer, Unicode conversion, and logging workload.
 
-## Devnet deployment
+## Deployments
 
 Program ID:
 
@@ -74,7 +74,14 @@ Program ID:
 BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9
 ```
 
-[View the program on Solscan](https://solscan.io/account/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9?cluster=devnet)
+The same deterministic program address is deployed on both clusters:
+
+- [Mainnet program](https://solscan.io/account/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9)
+- [Mainnet deployment transaction](https://solscan.io/tx/4XpYSgaKEk1wHryNtctGmPYvfw51DtzKon8qDcB4wbJ8kKNxXJJBbXuBPdzLXXxPCNa4ZW1h7gkajqsJknsiEita)
+- [Devnet program](https://solscan.io/account/BrzRKfKqtggYMQ7VkY7XmX3MgKUJwTVybuYCFeRKTxJ9?cluster=devnet)
+
+The mainnet program is upgradeable. Its upgrade authority should be protected
+as production infrastructure and never used by a browser client.
 
 ## Repository layout
 
